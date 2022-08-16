@@ -1,4 +1,3 @@
-import "./styles.css";
 import { Confess } from "./components/Confess";
 import { Confissions } from "./components/Confessions";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -11,7 +10,7 @@ export default function App() {
           <Route path="/confessions" element={<Confissions />} />
         </Routes>
       </Router>
-      <a href="/confess" className="confess">
+      <a href="/confess" className="confess bg-blue">
         Adicionar confissão
       </a>
       <a href="/confesssions" className="confessions">
